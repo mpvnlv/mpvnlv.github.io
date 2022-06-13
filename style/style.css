@@ -1,0 +1,206 @@
+@import url(https://fonts.googleapis.com/css?family=Khula:700);
+body {
+  background-color: #FFB540	;
+}
+.hidden {
+  opacity:0;
+}
+.console-container {
+    background-color: #FFB540	;
+  font-family:Khula;
+  font-size:250%;
+  text-align:center;
+  height:20%  ;
+  width:50%;
+  display:block;
+  position:absolute;
+  color:white;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  margin:auto;
+}
+.console-underscore {
+    background-color: #FFB540	;
+   display:inline-block;
+  position:relative;
+  top:-0.14em;
+  left:1%
+}
+#navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  width: 100%;
+  margin-top: 2%;
+  display: flex;
+  justify-content: center;
+  }
+ span{
+    color: aliceblue;
+    text-decoration:none;
+    line-height:2em ;
+    font-size: 100%;
+  }
+  @media (max-width: 500px){
+    .menu, .menu2{
+      width: 50%;
+      border: ridge 0.5vh #04346C;
+  
+      text-align: center;
+      border-radius: 20px;
+      display: inline-block;
+      margin: 0.5%;
+      background-color: #04346C;
+    }
+  }
+  @media (min-width:500px) {
+    .menu, .menu2{
+      width: 15%;
+      border: ridge 0.5vh #04346C;
+  
+      text-align: center;
+      border-radius: 20px;
+      display: inline-block;
+      margin: 0.5%;
+      background-color: #04346C;
+    }
+  }
+  .menu:hover{
+    background-color: gray;
+    opacity: 0.3;
+    cursor: pointer;
+  }
+
+  .menu2:hover{
+    background-color: gray;
+    opacity: 0.3;
+    cursor: pointer;
+  }
+  #return{
+    color: aliceblue;
+    text-decoration:none;
+    line-height:2em ;
+    background-color: #3F92D2;
+  }
+@media (min-width:500px) {
+  .cat{
+    margin-top: 5%;
+    margin-right: 10%;
+    width: 28.645%;
+    box-sizing: border-box;
+    display: inline-block;
+    border-radius: 20px;
+    border: outset #04346C 1em ;
+  }
+  .cat2{
+    margin-top: 5%;
+    width: 30%;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: inline-block;
+    border: outset #04346C 1em ;
+  }
+  .cats{
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width:500px) {
+  .cat{
+    margin-top: 5%;
+   
+    width: 70%;
+    box-sizing: border-box;
+    display: block;
+    border-radius: 20px;
+    border: outset #04346C 1em ;
+  }
+  .cat2{
+    margin-top: 3%;
+    width: 70%;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 20px;
+    display: inline-block;
+    border: outset #04346C 1em ;
+  }
+  
+}
+.try{
+  display: flex;
+  flex-direction: column;
+}
+#memes{
+  font-size:xx-large;
+  font-family: "Mistral";
+  align-self: center;
+
+
+}
+@media (min-width:499px){
+  #memes_photo{
+    align-self: center;
+    box-sizing:border-box;
+    width: 20%;
+    height: 40vh; 
+  }
+}
+@media (max-width:500px) {
+  #memes_photo{
+    align-self: center;
+    box-sizing:border-box;
+    width: 50%;
+    height: 25vh; 
+  }
+}
+#btn_mem{
+  align-self: center;
+  margin-top: 10%;
+  height: 5vh;
+  width: 30vh;
+  border-radius: 20px;
+  background-color: #3F92D2;
+  border: ridge 0.5vh #04346C;
+}
+.row{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.aboba{
+  
+  margin: 0 auto;
+  text-align: center;
+  height: 30em;
+  
+
+}
+.am_text{
+  margin-top: 20%;
+  padding: 10%;
+  border: ridge 0.5vh #04346C;
+  font-style: "Times New Roman";
+  font-size: large;
+}
+.am_photo{
+  margin-top: 10%;
+  height: 30em;
+  width: 35em;
+  margin-left: 5%;
+  border-top-left-radius: 100% 20px;
+  border: ridge 0.5vh #04346C;
+  background-color: #04346C;
+   border-bottom-right-radius: 100% 20px;
+  
+
+  /* background-image: url("photo_2022-04-23_14-25-19.jpg");  */
+  /* background-size: contain; */
+  /* background-repeat: no-repeat; */
+  
+}
