@@ -3,14 +3,24 @@
 
 // function consoleText(words, id, colors) {
 //   if (colors === undefined) colors = ['#fff'];
-//   var visible = true;
-//   var con = document.getElementById('console');
-//   var letterCount = 1;
-//   var x = 1;
+//   var visible:boolean = true;
+//   var con2 = document.getElementById('console') as HTMLElement;
+//   let con: HTMLElement;
+//   if (con2){
+//     con = con2;
+//   }
+//   var letterCount:number = 1;
+//   var x: number = 1;
 //   var waiting = false;
-//   var target = document.getElementById(id)
-//   target.setAttribute('style', 'color:' + colors[0])
+//   var target2 = document.getElementById(id) as HTMLElement;
+//   let target: HTMLElement;
+//   if (target2){
+//     target = target2;
+//   }
+
 //   window.setInterval(function() {
+
+//     target.setAttribute('style', 'color:' + colors[0])
 
 //     if (letterCount === 0 && waiting === false) {
 //       waiting = true;
